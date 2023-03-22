@@ -1,0 +1,19 @@
+[
+  {
+    "userid": 31876,
+    "username": "Fred Adams",
+    "status": "active"
+  },
+
+  {
+    "userid": 43509,
+    "username": "Mariam Sanders",
+    "status": "suspended"
+  },
+
+  {
+    "userid": 71233,
+    "username": "Cole Chadwick",
+    "status": "active"
+  }
+]

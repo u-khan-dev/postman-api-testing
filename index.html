@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <title> API Practice </title>
+    </head>
+
+    <body>
+        <header>
+            <h2> Test an API using a Mock Server </h2>
+        </header>
+
+        <main>
+            <div class="api-test">
+                <button class="btn" id="btn-all-users"> Get All Users </button>
+
+                <div class="out-div">
+                    <div id="all-users" class="output"></div>
+                </div>
+            </div>
+
+            <div class="api-test">
+                <div>
+                    <input type="text" class="user-input" id="userId-input">
+                    <button class="btn" id="btn-specific-user"> Get a User </button>
+                </div>
+                
+                <div class="out-div">
+                    <div id="specific-user" class="output"></div>
+                </div>
+            </div>
+
+            <div class="api-test">
+                <div>
+                    <input type="text"  class="user-input" id="name-input">
+                    <button class="btn" id="btn-new-user"> New User </button>
+                </div>
+
+                <div class="out-div">
+                    <div id="new-user" class="output"></div>
+                </div>
+            </div>
+        </main>
+
+        <script src="index.js"></script>
+    </body>
+</html>
